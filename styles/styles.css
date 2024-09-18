@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -15,7 +14,7 @@ body {
     color: white;
     font-size: 20px;
     font-weight: 700;
-    padding: 15px 35px; 
+    padding: 15px 35px;
 
 
 }
@@ -23,20 +22,20 @@ body {
 .section-title {
     color: #181818;
     text-align: center;
-    font-size:35px;
+    font-size: 35px;
     font-weight: 700;
 }
 
 .section-description {
     color: #757575;
     text-align: center;
-    font-size:18px ;
+    font-size: 18px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center ;
+    align-items: center;
     margin: 0px 200px;
 
 }
@@ -47,7 +46,7 @@ nav {
     font-weight: 800;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     align-items: center;
 }
@@ -64,14 +63,15 @@ nav a {
 
 /* header related style */
 
-.header{
+.header {
     background-color: #fff8fc;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
+
 .banner {
-    padding: 30px 30px 0px 150px ;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -82,9 +82,10 @@ nav a {
 }
 
 .banner .profile-picture {
-       width: 500px;
-       height: ;
+    width: 500px;
+    height: ;
 }
+
 .banner-greeting {
     font-size: 45px;
     color: #474747;
@@ -99,10 +100,15 @@ nav a {
     margin-bottom: 20px;
 }
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+main section {
+    margin-top: 130px;
+}
+
 .about {
     padding: 130px;
     border-radius: 10px;
@@ -114,15 +120,69 @@ main{
     margin-bottom: 100px;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
+
 .about-info {
-    text-align:center;
+    text-align: center;
 
 }
 
-#what-i-do-description{
+#what-i-do-description {
     padding: 30px 150px;
 }
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-description {
+    color: #757575;
+}
+
+
+/* resume-section-styls */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom:10px ;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+    }
+ .resume-item-institute {
+    margin-bottom: 20px;
+    margin-top: 10px;
+ }   
+
+ resume-item-institute, .resume-item-description {
+    color:#757575 ;
+ }   
+
+ .resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+ }
+
+ .resume-container hr {
+margin: 30px ;
+
+ }
+
+ .download-cv{
+    text-align: center;
+    margin-top: 50px;
+ }
