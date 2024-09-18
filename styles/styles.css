@@ -99,6 +99,10 @@ nav a {
     margin-bottom: 20px;
 }
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .about {
     padding: 130px;
     border-radius: 10px;
@@ -108,4 +112,13 @@ nav a {
 
 .banner-description {
     margin-bottom: 100px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info {
+    text-align:center;
+    
 }
